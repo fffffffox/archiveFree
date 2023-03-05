@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ArchiveFree | 自由文章</title>
+
+    <script>
+        function find() {
+            var input = document.getElementById("archive_id").value;
+            //alert(input); for test
+            switch (input) {
+                case 1:
+
+                    break;
+
+                default:
+                    alert("没有找到文章！！");
+                    break;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="box">
+        <pre><h1>
+      _             _     _             _____              
+     / \   _ __ ___| |__ (_)_   _____  |  ___| __ ___  ___ 
+    / _ \ | '__/ __| '_ \| \ \ / / _ \ | |_ | '__/ _ \/ _ \
+   / ___ \| | | (__| | | | |\ V /  __/ |  _|| | |  __/  __/
+  /_/   \_\_|  \___|_| |_|_| \_/ \___| |_|  |_|  \___|\___|
+        </pre></h1>
+        <h4>请输入文章id</h4>
+        <input type="text" id="archive_id">
+        <button onclick="find()">跳转</button>
+    </div>
+</body>
+
+</html>
